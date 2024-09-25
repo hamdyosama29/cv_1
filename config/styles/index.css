@@ -1,0 +1,382 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+#list {
+    height: 100vh;
+    width: 59%;
+    background-color: #000000;
+    color: #fff;
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    top: 0;
+    display: none; 
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.profile_girl{
+    display: none;
+    width: 60%;
+    margin: auto;
+}
+#button_click {
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    z-index: 2;
+    right: 0px;
+    padding: 12px;
+}
+#button_click:hover {
+    background-color:#3333334f;
+    color: #070707;
+}
+.centers{
+    display: flex;
+    width: 100%;
+}
+
+.image_one{
+
+    width: 70%;
+    height: 110vh;
+    background-image: url('../images/profile_girl.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:block;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    justify-content: end;
+}
+#button_click i{
+    font-size: 40px;
+    color: #333;
+}
+#button_close{
+    background-color: #000000;
+    border: none;
+    color: white;
+    font-size: 60px;
+    cursor: pointer;
+    padding: 20px;
+}
+.div_button{
+    display: flex;
+    justify-content: end;
+}
+ul{
+    text-align: center;
+    margin-top: 50px;
+
+}
+ul li{
+    list-style: none;
+    margin-top: 20px;
+    
+}
+.data{
+    padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(151, 151, 151);
+    font-family: sans-serif;
+    
+}
+ul li a:hover{
+    color: white;
+}
+.input{
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    overflow-y: auto; /* السماح بالتمرير الرأسي داخل الـ div */
+    height: 100vh; /* تأكيد أن الارتفاع يملأ الشاشة */
+}
+.downloads{
+    padding: 12px 50px;
+    border: none;
+}
+.downloads:hover{
+    background-color: #33333331;
+    transition: 0.12s;
+}
+.head{
+    text-align: start;
+}
+.head h1{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+}
+.portfolio{
+    padding: 20px;
+    margin-top: 200px;
+    overflow: auto;
+}
+.photos{
+    display: flex;
+}
+.left_photo{
+    width: 100%;
+}
+.left_photo img{
+    width: 100%;
+    margin-top: 12px;
+}
+
+.right_photo{
+    width: 100%;
+    margin-left: 12px;
+}
+.right_photo img{
+    width: 100%;
+    margin-top: 12px;
+}
+.about h1{
+    font-size: 50px;
+}
+.about{
+    margin-top: 100px;
+    padding: 20px;
+}
+.about p{
+    text-align: start;
+    margin-top: 50px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.Skills{
+    padding: 20px;
+    margin-top: 100px;
+}
+#level{
+    margin-top: 12px;
+    border-radius: 0;
+    height: 30px;
+}
+.scroll{
+    text-align: start;
+    
+}
+.scroll h1{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 12px;
+}
+.pdhm{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #616161;
+    margin-top: 20px;
+}
+.pdhm div{
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+    width: 25%;
+    color: white;
+    margin-top: 12px;
+
+}
+.pdhm h1{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+}
+.reputation{
+    padding: 20px;
+    margin-top: 100px;
+}
+.man_one{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+}
+.all_avatar p{
+    margin-left: 15px;
+
+}
+.all_avatar{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.avatar img{
+    width: 100px;
+    border-radius: 52%;
+}
+.title{
+    display: flex;
+}
+.title h2{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 12px   ;
+
+}
+.title p{
+    margin-left: 30px;
+}
+.all_price{
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+.basic{
+    width: 100%;
+    height: 50vh;
+    margin-right: 1%;
+} 
+.pro{
+    width: 100%;
+    height: 50vh;
+    margin-left: 1%;
+}
+.tob_title{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #616161;
+    color: white;
+}
+.basic p{
+    margin-top: 15px;
+}
+.pro p{
+    margin-top: 15px;
+}
+.bottom_price{
+    width: 100%;
+    height: 150px;
+    background-color: #f1f1f1;
+    margin-top: 0;
+}
+
+#signin{
+    border-radius: 0px;
+    margin-top: 15%;
+    background-color: white;
+    color: #000000;
+    border: none;
+    padding: 12px;
+    width: 100px;
+}
+#signin:hover{
+    background-color: #000000;
+    color: white;
+}
+.headr{
+    margin-top: 150px;
+    text-align: start;
+}
+.headr h1{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+}
+.locations{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 12px;
+}
+.locations i{
+    font-size: 50px;
+}
+.call{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 12px;
+}
+.call i{
+    font-size: 50px;
+}
+.email{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 12px;
+}
+.email i{
+    font-size: 50px;
+}
+.map{
+    margin-top: 100px;
+    background-image: url('../images/map.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+
+}
+.inputs{
+    width: 100%;
+}
+.inputs input{
+    width: 100%;
+    height: 50px;
+    margin-top: 12px;
+    border: 1px #b1b1b1 solid;
+}
+.send_message{
+    display: flex;
+    justify-content: start;
+    
+}
+.send_message button{
+    border: none;
+    padding: 12px;
+    margin-top: 12px;
+}
+.send_message button:hover{
+    background-color: #c0c0c0;
+    transition: 0.22s;
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #f1f1f1;
+}
+.informations{
+    padding: 20px;
+}
+footer i{
+    margin-top: 10%;
+}
+footer a{
+    color: #252525;
+}
+footer a:hover{
+    color: #00a2ff;
+}
+@media(max-width: 1000px){
+    .profile_girl{
+        display: block;
+    }
+    .image_one{
+        display: none;
+    }
+}
